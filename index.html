@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> -->
+    <link href="style/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://www.solodev.com/assets/parallax/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="https://www.solodev.com/assets/parallax/jquery.parallax-1.1.3.js"></script>
+    <script src="https://www.solodev.com/assets/parallax/jquery.scrollTo-1.4.2-min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#nav').localScroll(800);
+        //.parallax(xPosition, speedFactor, outerHeight) options:
+        //xPosition - Horizontal position of the element
+        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+        $('#intro').parallax("50%", .05);
+        $('#second').parallax("50%", .05);
+        $('.bg').parallax("50%", 0.4);
+        $('#third').parallax("50%", .05);
+        $('.bg').parallax("50%", 0.4);
+        $('#fourth').parallax("50%", .05);
+        $('.bg').parallax("50%", 0.4);
+        $('#fifth').parallax("50%", .05);
+        $('.bg').parallax("50%", 0.4);
+    });
+</script>
+
+<div id="intro">
+    <div class="story">
+        <div class="float-left">
+            <h2>Welcome!</h2>
+            <p>My name is Jack Sorensen, I am currently studying computer science and have built
+                 this page to show you some of my
+                favorite created projects and collaborations. Feel free to scroll
+                down and take a peek. At the bottom of the page are all the links
+                to the projects below, as well as contact and additional profile links. 
+                Thanks for stopping by, and enjoy!
+            </p>
+        </div>
+    </div>
+    <!--.story-->
+</div>
+<!--#intro-->
+<div id="second">
+    <div class="story">
+        <div class="bg"></div>
+        <div id="atei" class="float-right">
+            <!-- <a href="http://foodie-helper-2019.appspot.com/" style="color:black">ate-i</a> -->
+            <h1>Ate-i</h1>
+            <img src="style/images/atei.gif" alt="ate i demo">
+            <p>Ate-i uses AI and smart learning to identify food you are eating and sends back nutritional information about your food item.</p>
+            <!-- <p>Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla
+                in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod
+                sollicitudin metus erat vitae sapien. Sed pulvinar.</p> -->
+        </div>
+
+    </div>
+    <!--.story-->
+</div>
+<!--#second-->
+<div id="third">
+    <div class="story">
+        <div id="spinach" class="float-left">
+            <h2>Why is Parallax so Awesome?</h2>
+            <img src="style/images/shootas.gif" alt="spinach shooters demo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at,
+                aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris,
+                volutpat elementum enim urna eget odio.</p>
+        </div>
+    </div>
+    <!--.story-->
+</div>
+<!--#third-->
+<div id="fourth">
+    <div class="story">
+        <div id="node" class="float-right">
+            <h2>Jackyjackyjacky</h2>
+        </div>
+    </div>
+</div>
+<div id="fifth">
+    <div class="story">
+        <div class="float-left">
+            <div id="contacts">
+                <h1>Contact and Links</h1>
+                <h2>Please email me at <a
+                        href="mailto:jack.sorensen11@gmail.com?subject=Jack, we should meed&body=I would love to get together and chat about your skills, Jack." style="color:white">Jack.Sorensen11@gmail.com</a>
+                </h2>
+                <a href="https://github.com/javeyn" target="_blank" style="color:white">Jack's GitHub</a>
+                <br>
+                <a href="https://www.linkedin.com/in/jack-sorensen-53810b183/" target="_blank" style="color:white">Jack's LinkedIn</a>
+            </div>
+            <div id="ateilinks">
+                <a href="http://foodie-helper-2019.appspot.com/" target="_blank" style="color:white">Click here to Visit Ate-i</a>
+                <br>
+                <a href="https://github.com/Javeyn/project1" target="_blank" style="color:white">Click here to visit Ate-i's GitHub Repo</a>
+            </div>
+            <div id=spinachlinks>
+                <a href="https://fathomless-sierra-17852.herokuapp.com/" target="_blank" style="color:white">Click here to Play Spinach
+                    Shooters</a>
+                <br>
+                <a href="https://github.com/Javeyn/projectTwo" target="_blank" style="color:white">Click here to visit Spinach Shooter's
+                    GitHub Repo</a>
+                <!-- https://fathomless-sierra-17852.herokuapp.com/ -->
+                <!-- https://github.com/Javeyn/projectTwo -->
+            </div>
+            <div id=nodelinks>
+                <a href="https://github.com/Javeyn/firstNode" target="_blank" style="color:white">Click here to visit firstNode's GitHub Repo</a>
+            </div>
+        </div>
+        <div class="tooltip">
+            <img src="style/images/me.jpg" alt="me" style="height: 500px;width:auto;float:right;">
+
+  <span class="tooltiptext">Thanks for visiting!</span>
+</div>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

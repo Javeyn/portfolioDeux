@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+    margin: 0;
+    min-width: 980px;
+    padding: 0;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+p, ul, a {
+   font-family: 'Acme', sans-serif;
+    font-size-adjust: 0.488;
+    font-weight: 200;
+    font-style: normal;
+}
+
+img {
+    border: 0;
+    width: 100%;
+}
+
+h1, #pixels {
+   font-family: 'Acme', sans-serif;
+    font-size-adjust: 0.40;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+   font-family: 'Acme', sans-serif;
+    font-size-adjust: 0.531;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#header h1, #pixels {
+    color: #48941A;
+}
+
+.float-left {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 20px 0 0;
+}
+
+.center {
+    font-size: 2.5em;
+    padding: 80px 0 0 0;
+    text-align: center;
+}
+
+#nav {
+    list-style: none;
+    position: fixed;
+    right: 20px;
+}
+
+#nav li {
+    margin: 0 0 15px 0;
+}
+
+#header, #intro, #second {
+    width: 100%;
+}
+
+#intro {
+    background: url("images/moonbg.png") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+#second {
+    background: url("images/foodbg.jpg") 50% 0 no-repeat fixed;
+    /* background: url("images/bg2.jpg") 50% 0 no-repeat fixed; */
+    background-size: cover;
+    color: black;
+    height: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+#atei {
+    background-color: rgb(29, 165, 29, .7);
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+
+}
+
+/* #second .bg {
+    background: url("images/atei.gif") 50% 0 no-repeat fixed;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    z-index: 500;
+    max-width: 1900px;
+    width: 100%;
+    overflow: hidden;
+} */
+
+#third {
+    background: url("images/spinachBG.PNG") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 750px;
+    padding: 100px 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    text-align:right;
+}
+
+#spinach {
+    background-color: rgba(230, 230, 230, 0.7);
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+
+}
+
+#third .bg {
+    background: url("images/spinachBG.PNG") 50% 0 no-repeat fixed;
+    height: 1300px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    z-index: 200;
+    max-width: 1900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#fourth {
+    background: url("images/nodebg.PNG") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 750px;
+    padding: 100px 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+#node {
+    border-top-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color:rgba(49, 27, 126, 0.7)
+}
+
+#fifth {
+    background: url("images/footer.png") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 750px;
+    padding: 100px 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: auto;
+    width: 980px;
+}
+
+.story .float-left, .story .float-right {
+    padding: 100px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+
+#contacts {
+    border: 2px groove white;
+    border-radius: 20px;
+    margin:10px;
+    text-align:center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#ateilinks{
+    border: 2px groove white;
+    border-radius: 10px;
+    margin:10px;
+    text-align:center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#spinachlinks {
+    border: 2px groove white;
+    border-radius: 10px;
+    margin:10px;
+    text-align:center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#nodelinks{
+    border: 2px groove white;
+    border-radius: 5px;
+    margin:10px;
+    text-align:center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    margin-left:20%;
+  }
+  
+  .tooltip .tooltiptext {
+    font-family: 'Acme', sans-serif;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    /* text-align: center;
+     */
+     float:right;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+/* #me {
+    height:400;
+    width:auto;
+} */
+audio, embed {
+    position: absolute;
+    z-index: -9999;
+  }
