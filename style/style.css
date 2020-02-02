@@ -262,10 +262,7 @@ h2 {
     height:400;
     width:auto;
 } */
-audio, embed {
-    position: absolute;
-    z-index: -9999;
-  }
+
 
   #welcome {
      width:350px;
