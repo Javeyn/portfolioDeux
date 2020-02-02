@@ -76,17 +76,27 @@ h2 {
     background: url("images/moonbg.png") 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
+    text-shadow: 3px 3px 6px #000000;
     height: 600px;
     margin: 0 auto;
     padding: 0;
     width: 100%;
+    float:left;
+
+}
+
+#hellocard {
+    background-color: rgba(73, 73, 73, 0.7);
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
 }
 
 #second {
     background: url("images/foodbg.jpg") 50% 0 no-repeat fixed;
     /* background: url("images/bg2.jpg") 50% 0 no-repeat fixed; */
     background-size: cover;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
     height: 750px;
     margin: 0 auto;
     overflow: hidden;
@@ -117,6 +127,7 @@ h2 {
     background: url("images/spinachBG.PNG") 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     height: 750px;
     padding: 100px 0 0 0;
     width: 100%;
@@ -148,6 +159,7 @@ h2 {
     background: url("images/nodebg.PNG") 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     height: 750px;
     padding: 100px 0 0 0;
     width: 100%;
@@ -164,6 +176,7 @@ h2 {
     background: url("images/footer.png") 50% 0 no-repeat fixed;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 4px #000000;
     height: 750px;
     padding: 100px 0 0 0;
     width: 100%;
@@ -252,4 +265,24 @@ h2 {
 audio, embed {
     position: absolute;
     z-index: -9999;
+  }
+
+  #welcome {
+     width:350px;
+  }
+
+  #skillset {
+    width:350px;
+  }
+
+  .column {
+    /* float: left; */
+    width: 60%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
