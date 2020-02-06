@@ -2,7 +2,6 @@
 /* CSS Document */
 
 body {
-    
     margin: 0;
     min-width: 980px;
     padding: 0;
@@ -13,7 +12,7 @@ p {
 }
 
 p, ul, a {
-   font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size-adjust: 0.488;
     font-weight: 200;
     font-style: normal;
@@ -25,14 +24,14 @@ img {
 }
 
 h1, #pixels {
-   font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size-adjust: 0.40;
     font-weight: 700;
     font-style: normal;
 }
 
 h2 {
-   font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size-adjust: 0.531;
     font-weight: 500;
     font-style: normal;
@@ -81,8 +80,7 @@ h2 {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    float:left;
-
+    float: left;
 }
 
 #hellocard {
@@ -93,7 +91,6 @@ h2 {
 
 #second {
     background: url("images/foodbg.jpg") 50% 0 no-repeat fixed;
-    /* background: url("images/bg2.jpg") 50% 0 no-repeat fixed; */
     background-size: cover;
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -108,20 +105,7 @@ h2 {
     background-color: rgb(29, 165, 29, .7);
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-
 }
-
-/* #second .bg {
-    background: url("images/atei.gif") 50% 0 no-repeat fixed;
-    height: 1300px;
-    margin: 0 auto;
-    padding: 0;
-    position: absolute;
-    z-index: 500;
-    max-width: 1900px;
-    width: 100%;
-    overflow: hidden;
-} */
 
 #third {
     background: url("images/spinachBG.PNG") 50% 0 no-repeat fixed;
@@ -133,14 +117,13 @@ h2 {
     width: 100%;
     overflow: hidden;
     padding: 0;
-    text-align:right;
+    text-align: right;
 }
 
 #spinach {
     background-color: rgba(230, 230, 230, 0.7);
     border-top-right-radius: 25%;
     border-bottom-left-radius: 25%;
-
 }
 
 #third .bg {
@@ -166,10 +149,11 @@ h2 {
     overflow: hidden;
     padding: 0;
 }
+
 #node {
     border-top-left-radius: 25%;
-    border-bottom-right-radius:25% ;
-    background-color:rgba(49, 27, 126, 0.7)
+    border-bottom-right-radius: 25%;
+    background-color: rgba(49, 27, 126, 0.7)
 }
 
 #fifth {
@@ -200,32 +184,32 @@ h2 {
 #contacts {
     border: 2px groove white;
     border-radius: 20px;
-    margin:10px;
-    text-align:center;
+    margin: 10px;
+    text-align: center;
     box-shadow: 10px 10px 5px grey;
 }
 
-#ateilinks{
+#ateilinks {
     border: 2px groove white;
     border-radius: 10px;
-    margin:10px;
-    text-align:center;
+    margin: 10px;
+    text-align: center;
     box-shadow: 10px 10px 5px grey;
 }
 
 #spinachlinks {
     border: 2px groove white;
     border-radius: 10px;
-    margin:10px;
-    text-align:center;
+    margin: 10px;
+    text-align: center;
     box-shadow: 10px 10px 5px grey;
 }
 
-#nodelinks{
+#nodelinks {
     border: 2px groove white;
     border-radius: 5px;
-    margin:10px;
-    text-align:center;
+    margin: 10px;
+    text-align: center;
     box-shadow: 10px 10px 5px grey;
 }
 
@@ -233,53 +217,45 @@ h2 {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
-    margin-left:20%;
-  }
-  
-  .tooltip .tooltiptext {
+    margin-left: 20%;
+}
+
+.tooltip .tooltiptext {
     font-family: 'Acme', sans-serif;
     visibility: hidden;
     width: 120px;
     background-color: black;
     color: #fff;
-    /* text-align: center;
-     */
-     float:right;
+    float: right;
     border-radius: 6px;
     padding: 5px 0;
-    
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
     top: -5px;
     right: 105%;
-  }
-  
-  .tooltip:hover .tooltiptext {
+}
+
+.tooltip:hover .tooltiptext {
     visibility: visible;
-  }
-/* #me {
-    height:400;
-    width:auto;
-} */
+}
 
+#welcome {
+    width: 350px;
+}
 
-  #welcome {
-     width:350px;
-  }
+#skillset {
+    width: 350px;
+}
 
-  #skillset {
-    width:350px;
-  }
-
-  .column {
-    /* float: left; */
+.column {
     width: 60%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
